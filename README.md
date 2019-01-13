@@ -1,5 +1,5 @@
 # rusyllab
-Simple Python package for breaking Russian words into syllables
+Simple Python package for breaking Russian words into syllables.
 
 ## Installation
 
@@ -11,7 +11,9 @@ pip install git+https://github.com/Koziev/rusyllab
 
 ## API
 
-Function *split* splits a word aand returns a list of syllables. 
+Function *split_word* splits a word aand returns a list of syllables. 
+
+Function *split_words* processes the list of words and return the list of syllables and spaces for word separation.
 
 ## Usage
 
@@ -21,12 +23,12 @@ Example:
 ```
 import rusyllab
 
-syllables = split(u"спросил")
-print(u"|".join(sx))
+sx = rusyllab.split_words(u"Голодная кошка ловит мышку".split())
+print('|'.join(sx))
 ```
 
 Result:
 
 ```
-спро|сил
+Го|лод|на|я| |кош|ка| |ло|вит| |мыш|ку
 ```

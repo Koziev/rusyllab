@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rusyllab",
-    version="0.0.1",
+    version="0.0.2",
     author="Ilya Koziev",
     author_email="inkoziev@gmail.com",
-    description="Simple Python 2/3 package for breaking Russian words into syllables",
+    description="Simple Python package for breaking Russian words into syllables",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Koziev/rusyllab",
