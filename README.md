@@ -1,4 +1,7 @@
 # rusyllab
+
+[![Build status](https://travis-ci.org/Koziev/rusyllab.svg?master)](https://travis-ci.org/Koziev)
+
 Simple Python package for breaking Russian words into syllables.
 
 ## Installation
