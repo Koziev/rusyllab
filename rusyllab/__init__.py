@@ -1,3 +1,3 @@
-from utils.utils import split_word
-from utils.utils import split_words
+from .rusyllab import split_word
+from .rusyllab import split_words
 
