@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rusyllab",
-    version="0.0.2",
+    version="0.0.3",
     author="Ilya Koziev",
     author_email="inkoziev@gmail.com",
     description="Simple Python package for breaking Russian words into syllables",

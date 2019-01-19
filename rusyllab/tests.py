@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from rusyllab import split
+import rusyllab
 
 
 def word2pieces(word):
-    return '|'.join(split(word))
+    return '|'.join(rusyllab.split_word(word))
 
 
 def test_split_word():
